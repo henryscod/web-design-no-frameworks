@@ -1,0 +1,31 @@
+
+#team .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+} 
+
+#team h3{
+    text-align: center;
+}
+.equipo{
+	font-size: 30px;
+}
+
+#team article p{
+    text-align: center;
+    transform: translateX(0%);
+    max-width: 300px;    
+}
+
+#team article{
+    margin: 15px;
+}
+
+#team img {
+    width: 100%;
+    max-width: 300px;
+}
+

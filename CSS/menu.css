@@ -1,0 +1,56 @@
+/*DESAPARECER CHECK BOX*/
+#menu-bar{
+	display: none;
+
+}
+
+/*POSICION DE ICONO MENU*/
+header label{
+	float: right;
+	font-size: 40px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+/*POSICION Y TAMAÑO MENU-LINKS*/
+.menu{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	width: 100%;
+	height: 100vh;
+	background: rgba(51,51,51, 0.7);
+	z-index: 5;
+
+}
+
+/*COLOR, DISPLAY Y TAMAÑO DE MENU*/
+.menu a{
+	position: ;
+	display: block; /*para ver en vertical los links*/
+	color: #FFFFFF;
+	height: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255,255,255, 0.5)
+
+}
+
+/*MANU HOVER*/
+.menu a:hover{
+	background: rgba(255,255,255, 0.3);
+}
+
+/*HACER QUE MENU DESAPAREZCA Y VUELVA AL PRESIONAR ICONO*/
+
+.menu {
+	transition: all 0.5s;
+	transform: translateX(-100%);
+}
+
+/*CUANDO INPUT-CHECKED SELECT...*/
+#menu-bar:checked ~ .menu {
+	transform: translateX(0%);
+}
+
